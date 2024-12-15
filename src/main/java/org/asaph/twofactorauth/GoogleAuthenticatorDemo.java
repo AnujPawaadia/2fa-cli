@@ -105,10 +105,8 @@ public class GoogleAuthenticatorDemo {
         int option = scanner.nextInt();
         scanner.nextLine(); // Consume the newline character
 
-        // Define the path where QR codes will be saved
-        // Define the path where QR codes will be saved
-String qrCodeFolderPath = "C:" + File.separator + "Users" + File.separator + "Anuj" + File.separator + "Desktop" + File.separator + "main" + File.separator + "twofactorauth" + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + "static" + File.separator + "images" + File.separator;
-
+        // Define the path to save QR codes
+        String qrCodeFolderPath = currentDir + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + "static" + File.separator + "images" + File.separator;
 
         if (option == 1) {
             // User Registration
